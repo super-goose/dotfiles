@@ -34,3 +34,4 @@ cd $FONT_DIR
 #ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 git config --global core.editor "nano"
+export GIT_EDITOR="nano"
