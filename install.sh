@@ -33,7 +33,8 @@ git config --global core.editor "nano"
 export GIT_EDITOR="nano"
 
 # :finger-quotes: History :finger-quotes:
-cat ./fakehistory >> $HISTFILE
+# cat ./fakehistory >> $HISTFILE
+sudo cat ./fakehistory >> /root/.zsh_history
 
 # yarn install (can't use aliases in install script)
 cd $TRANSCEND_DIR && git pull && yarn install
