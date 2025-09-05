@@ -33,5 +33,11 @@ cd $FONT_DIR
 #git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 #ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
+echo "Presonalizing Git"
 git config --global core.editor "nano"
 export GIT_EDITOR="nano"
+
+echo "Getting that sweet, sweet history"
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+source $HOME/.atuin/bin/env
+echo "$ATUIN_PASSWORD" | atuin login -u "$ATUIN_USERNAME" -k "$ATUIN_KEY"
