@@ -37,6 +37,7 @@ export GIT_EDITOR="nano"
 # source $HOME/.atuin/bin/env
 # echo "$ATUIN_PASSWORD" | atuin login -u "$ATUIN_USERNAME" -k "$ATUIN_KEY"
 
-
-cd $TRANSCEND_DIR && ggpull && yarn install
+# yarn install
+## can't use aliases yet!
+cd $TRANSCEND_DIR && git pull && yarn install
 
