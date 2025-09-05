@@ -36,3 +36,5 @@ export GIT_EDITOR="nano"
 # curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 # source $HOME/.atuin/bin/env
 # echo "$ATUIN_PASSWORD" | atuin login -u "$ATUIN_USERNAME" -k "$ATUIN_KEY"
+
+# cd here $TRANSCEND_DIR and yarn install?
