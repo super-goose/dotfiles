@@ -69,6 +69,7 @@ export HISTFILE=/workspaces/.codespaces/.persistedshare/dotfiles/fakehistory
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+export GIT_EDITOR="nano"
 
 source $ZSH/oh-my-zsh.sh
 
