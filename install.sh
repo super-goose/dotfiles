@@ -37,4 +37,4 @@ export GIT_EDITOR="nano"
 # sudo cat ./fakehistory >> /root/.zsh_history
 
 # yarn install (can't use aliases in install script)
-cd $TRANSCEND_DIR && git pull && yarn install
+cd /workspaces/main && git pull && yarn install
