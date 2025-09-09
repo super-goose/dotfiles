@@ -1,1 +1,2 @@
 : 1757099124:0;echo "I never actually executed this command..."
+: 1757099324:0;git update-index --assume-unchanged yarn.lock
