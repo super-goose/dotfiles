@@ -28,9 +28,9 @@ create_symlinks
 # cd $FONT_DIR
 # ./install.sh
 
-# Personalizing Git
-git config --global core.editor "nano"
-export GIT_EDITOR="nano"
+# # Personalizing Git
+# git config --global core.editor "nano"
+# export GIT_EDITOR="nano"
 
 # :finger-quotes: History :finger-quotes:
 # cat ./fakehistory >> $HISTFILE
