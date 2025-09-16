@@ -19,22 +19,4 @@ create_symlinks() {
 
 create_symlinks
 
-# echo "Initializing conda for zsh."
-# conda init zsh
-
-# echo "Installing fonts."
-# FONT_DIR="$HOME/.fonts"
-# git clone https://github.com/powerline/fonts.git $FONT_DIR --depth=1
-# cd $FONT_DIR
-# ./install.sh
-
-# # Personalizing Git
-# git config --global core.editor "nano"
-# export GIT_EDITOR="nano"
-
-# :finger-quotes: History :finger-quotes:
-# cat ./fakehistory >> $HISTFILE
-# sudo cat ./fakehistory >> /root/.zsh_history
-
-# yarn install (can't use aliases in install script)
-cd /workspaces/main && git pull && yarn install
+echo "I show up in the install logs"
